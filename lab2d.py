@@ -5,8 +5,12 @@ import sys
 if len(sys.argv) != 3:
     print(f"Usage: {sys.argv[0]} name age")
     sys.exit(1)
+   def helloWorld():
+    print('Hello World')
 
-# Assign command line arguments to variables
+helloWorld()
+
+   # Assign command line arguments to variables
 name = sys.argv[1]
 age = sys.argv[2]
 
